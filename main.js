@@ -1,8 +1,8 @@
 const getDepot = require('./src/getDepot');
-(async() => {
-    const depot =await getDepot()
+const getMenu = require('./src/getMenu');
 
-    console.log(depot);
-
-
+(async () => {
+    const depot = await getDepot()
+    const menu = await getMenu(depot)
+    console.log(menu);
 })()

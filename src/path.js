@@ -1,3 +1,4 @@
 module.exports = {
-    getWorkspaceData: '/workspace/getWorkspaceData'
+    getWorkspaceData: '/workspace/getWorkspaceData',
+    getData:'/pages/getData'
 }
